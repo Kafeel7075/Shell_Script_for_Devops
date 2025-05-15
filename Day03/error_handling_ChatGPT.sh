@@ -39,3 +39,15 @@ comment
 create_directory
 create_file
 echo "***** Both Directory & File were created successfully  *****" 
+
+<< Refarence
+How it works:
+
+set -e: the script will exit immediately if any command fails (optional for stricter error handling).
+
+create_directory: creates demo01 only if it doesn't exist.
+
+create_file: creates demo.txt only if it doesn't exist.
+
+return 1: used to indicate the resource already exists, so the main script can react accordingly.
+Refarence

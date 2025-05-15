@@ -1,7 +1,9 @@
 #!/bin/bash
 
+#create directory
+
 create_directory() {
-	mkdir demo01
+	mkdir demo
 }
 
 if ! create_directory; then
